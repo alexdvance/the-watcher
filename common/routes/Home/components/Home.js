@@ -1,13 +1,14 @@
 import React from 'react'
 
 import { StyleSheet, css } from 'aphrodite'
+import Search from '../../../components/Search'
 import data from '../data'
 
 // This is a static page. It uses an array to hold data about the resources
 // and maintain DRY
 const Home = (props) => (
   <div>
-
+    <Search />
     <h2 className={css(styles.header)}>About</h2>
     <p className={css(styles.lead)}>
       This is an example react application (master-detail feed) with isomorphic rendering, async react-router routes, async redux reducers, async data fetching, and code-splitting.
