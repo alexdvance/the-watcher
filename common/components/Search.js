@@ -38,8 +38,6 @@ const Search = () => (
     <input type="text" placeholder="Search for a movie or TV show" onKeyUp={typeTerm} />
     <input type="button" value="blub" onClick={search} />
     {searchResults}
-    <div>{crap}</div>
-    {poop}
   </div>
 )
 
