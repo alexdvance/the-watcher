@@ -5,8 +5,8 @@ import { StyleSheet, css } from 'aphrodite'
 
 const App = ({ children }) => (
   <div className={css(styles.root)}>
-    <Helmet title='React Production Starter' titleTemplate='%s - React Production Starter' />
-    <h1 className={css(styles.title)}>React Production Starter</h1>
+    <Helmet title='The Watcher' titleTemplate='%s - The Watcher' />
+    <h1 className={css(styles.title)}>The Watcher</h1>
     <Nav />
     {children}
     <footer className={css(styles.footer)}>
